@@ -21,89 +21,53 @@
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_label_spotify_streamer"
         android:id="@+id/btnSpotify"
-        android:layout_marginTop="@dimen/fab_margin"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/main_button_padding"
-        android:width="@dimen/main_button_width"
-        android:background="@color/mainButtonDefault"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:onClick="showToast"
+        style="@style/MainButton"
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_label_scores"
         android:id="@+id/btnScores"
         android:layout_below="@+id/btnSpotify"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/main_button_padding"
-        android:width="@dimen/main_button_width"
-        android:background="@color/mainButtonDefault"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:onClick="showToast"
+        style="@style/MainButton"
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_label_library"
         android:id="@+id/btnLibrary"
         android:layout_below="@+id/btnScores"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/main_button_padding"
-        android:width="@dimen/main_button_width"
-        android:background="@color/mainButtonDefault"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:onClick="showToast"
+        style="@style/MainButton"
         />
 
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_label_xyz_reader"
         android:id="@+id/btnXYZ"
         android:layout_below="@+id/btnLibrary"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/main_button_padding"
-        android:width="@dimen/main_button_width"
-        android:background="@color/mainButtonDefault"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:onClick="showToast"
+        style="@style/MainButton"
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_label_bib"
         android:id="@+id/btnBIB"
         android:layout_below="@+id/btnXYZ"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/main_button_padding"
-        android:width="@dimen/main_button_width"
-        android:background="@color/mainButtonDefault"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:onClick="showToast"
+        style="@style/MainButton"
         />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/btn_label_capstone"
         android:id="@+id/btnCapstone"
         android:layout_below="@+id/btnBIB"
-        android:layout_centerHorizontal="true"
-        android:padding="@dimen/main_button_padding"
-        android:width="@dimen/main_button_width"
         android:background="@color/mainButtonSpecial"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:onClick="showToast"
+        style="@style/MainButton"
         />
 
 </RelativeLayout>
